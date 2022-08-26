@@ -1,0 +1,33 @@
+{
+  "name": "vidly_server",
+  "version": "1.0.0",
+  "description": "the vidlyApp's backend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "author": "MGTorres",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "compression": "^1.7.4",
+    "config": "^3.3.7",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "fawn": "^2.1.5",
+    "helmet": "^5.1.1",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.5.2",
+    "winston": "^3.8.1",
+    "winston-mongodb": "^5.0.7"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "My vidly app - server - default env",
+    "db" : "",
+    "jwtPrivateKey": ""
+    
+}
